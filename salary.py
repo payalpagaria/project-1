@@ -8,5 +8,4 @@ y=db["Salary"]
 x=x.values
 x=x.reshape(30,1)
 mind.fit(x,y)
-n=input("Enter the years of experience :")
-print("predicted salary :",mind.predict([[n]]))
+print("predicted salary :",mind.predict([[2]]))
